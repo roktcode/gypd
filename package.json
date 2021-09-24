@@ -1,0 +1,26 @@
+{
+	"name": "gypd",
+	"version": "1.0.0",
+	"description": "Get YouTube playlist duration",
+	"main": "index.js",
+	"type": "module",
+	"scripts": {},
+	"repository": {
+		"type": "git",
+		"url": "https://github.com/roktcode/gypd.git"
+	},
+	"keywords": [
+		"youtube",
+		"duration",
+		"playlist"
+	],
+	"author": "Muhammad Yasser",
+	"license": "MIT",
+	"bugs": {
+		"url": "https://github.com/roktcode/gypd/issues"
+	},
+	"homepage": "https://github.com/roktcode/gypd#readme",
+	"dependencies": {
+		"axios": "^0.21.4"
+	}
+}
