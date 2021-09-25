@@ -27,7 +27,7 @@ const dur = await gypd({
 
 ### How to use it?
 
-- `gypd` requires that you have a valid Google API key, with Youtube API v3 enabled; watch this short video to learn how to [ generate your Google API key]()
+- `gypd` requires that you have a valid Google API key, with Youtube API v3 enabled; watch this short video to learn how to [generate your Google API key](https://youtu.be/Jl9Nitf8PJs)
 
 - once you have created your API key, pass a playlist ID
 
