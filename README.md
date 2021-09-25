@@ -41,4 +41,4 @@ const dur = await gypd({
 
 If you face problems, open an issue, or contact me on Twitter [@roktmy](https://twitter.com/roktmy)
 
-Version 1 uploaded at: Sep 25, 2021. By Muhammad Yasser.
+Version 1 uploaded on Sep 25, 2021, by Muhammad Yasser.
