@@ -8,8 +8,8 @@ let gTotalDuration = 0;
 let gNextPageToken = null;
 const gVideoIdsPromises = [];
 
-const gPlaylistItemsURL = `https://www.googleapis.com/youtube/v3/playlistItems?part=contentDetails&maxResults=50`;
-const gVideosDetailsURL = `https://www.googleapis.com/youtube/v3/videos?maxResults=${50}&part=contentDetails`;
+const gPlaylistItemsURL = `https://www.googleapis.com/youtube/v3/playlistItems?part=contentDetails&maxResults=50&fields=items/contentDetails/videoId,nextPageToken`;
+const gVideosDetailsURL = `https://www.googleapis.com/youtube/v3/videos?part=contentDetails&fields=items/contentDetails/duration`;
 
 function getNextTokenURL() {
 	return gNextPageToken
