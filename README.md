@@ -1,4 +1,4 @@
-### Get Youtube playlist duration easily
+### Get YouTube playlist duration easily
 
 <br>
 GYPD lets you get YouTube playlist duartion easily with a very intuitive APi.
