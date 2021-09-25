@@ -3,19 +3,19 @@
 <br>
 GYPD lets you get YouTube playlist duartion easily with a very intuitive APi.
 
-### Install:
+#### Install:
 
 ```
 npm i gypd
 ```
 
-Import:
+#### Import:
 
 ```js
 import gypd from "gypd"
 ```
 
-### Use:
+#### Use:
 
 ```js
 const dur = await gypd({
@@ -38,6 +38,7 @@ const dur = await gypd({
 > use try/catch block, or any equivelant solution to catch potential errors that might happen
 
 <br>
-If you face problems, open an issue, or contact me on Twitter [@roktmy](https://twitter.com/roktmy) 
 
-Developed by: Muhammad Yasser
+If you face problems, open an issue, or contact me on Twitter [@roktmy](https://twitter.com/roktmy)
+
+Version 1 uploaded at: Sep 25, 2021. By Muhammad Yasser.
