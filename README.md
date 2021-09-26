@@ -19,8 +19,8 @@ import gypd from "gypd"
 
 ```js
 const duration = await gypd({
-	playlistId: PLAYLIST_ID_HERE,
-	apiKey: API_KEY_HERE,
+	playlistId: PLAYLIST_ID_OR_URL,
+	apiKey: API_KEY,
 	formatted: true,
 })
 ```

@@ -78,13 +78,24 @@ async function getVideosDuraion() {
 	}
 }
 
+function extractID(playlist) {
+	const scheme = `https://www.youtube.com/playlist?list=`;
+	const isFullURL = playlist.startsWith(scheme);
+
+	if (!isFullURL) return playlist;
+
+	const fullURLRegex = /playlist\?list=(.*)/;
+	const id = playlist.match(fullURLRegex)[1];
+	return id;
+}
+
 export default async function ({ playlistId, apiKey, formatted = false }) {
 	if (!playlistId || !apiKey) {
 		throw new Error(`GYPD: Provide a valid playlist Id & API key!`);
 	}
 
 	try {
-		gPlaylistId = playlistId;
+		gPlaylistId = extractID(playlistId);
 		API_KEY = apiKey;
 		await getPlaylistData();
 		await getVideosDuraion();
