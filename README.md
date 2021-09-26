@@ -34,7 +34,7 @@ const duration = await gypd({
  Your Google API key (with YouTube API v3 enabled). Watch this short video to learn how to [generate your Google API key](https://youtu.be/Jl9Nitf8PJs)
 
 - playlistId (required):  type `string`
- The identifier of the target YouTube playlist
+ The URL or id of the target YouTube playlist
 
 - formatted (optional): type `boolean`, default value `false`
   Returns a duration object in the form of **{days, hours, minutes and seconds}**
